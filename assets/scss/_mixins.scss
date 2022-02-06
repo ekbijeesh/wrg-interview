@@ -1,0 +1,31 @@
+
+@mixin transition($tVal){
+    -webkit-transition:all $tVal ease-in-out;
+    -moz-transition: all $tVal ease-in-out;
+    -ms-transition: all $tVal ease-in-out;
+    -o-transition: all $tVal ease-in-out;
+    transition: all $tVal ease-in-out;
+  }
+
+  @mixin border-radius($brVal){
+    -webkit-border-radius:$brVal;
+    -moz-border-radius:$brVal;
+    -ms-border-radius:$brVal;
+    -o-border-radius:$brVal;
+    border-radius:$brVal;
+  }
+
+
+  @mixin rotation($tVal){
+    -webkit-transform: rotate($tVal);
+    -moz-transform: rotate($tVal);
+    transform: rotate($tVal);
+  }
+
+
+  @mixin scale($val){
+    -webkit-transform: scale($val);
+    -moz-transform: scale($val);
+    -ms-transform: scale($val);
+    transform: scale($val);
+  }
